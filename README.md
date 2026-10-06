@@ -98,13 +98,6 @@ claude --plugin-dir /path/to/agent-skills
 </details>
 
 <details>
-<summary><b>Cursor</b></summary>
-
-Put workflow skills under `.cursor/skills/` (sync from `agent-skills/skills/`) and short policies in `.cursor/rules/*.mdc` — do not paste full skills into rules. See [docs/cursor-setup.md](docs/cursor-setup.md).
-
-</details>
-
-<details>
 <summary><b>Antigravity CLI</b></summary>
 
 Install as a native plugin for skills and subagents. In affected Antigravity CLI releases, legacy command TOMLs are reported as converted but their wrapper commands are not discoverable; invoke the underlying namespaced skills directly. See [docs/antigravity-setup.md](docs/antigravity-setup.md#lifecycle-workflows-and-command-compatibility).
